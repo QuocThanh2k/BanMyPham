@@ -1,9 +1,9 @@
-const sql = require('mssql/msnodesqlv8');
+const sql = require('mssql');
 
 const dbConfig = {
   server: "localhost",
   database: "ThanhtamCosmetics",
-  driver: "msnodesqlv8",
+  driver: "mssql",
   options: {
     instanceName: "QUOCTHANH",
     trustedConnection: true,
