@@ -10,11 +10,11 @@ SET ARITHABORT ON;
 SET CONCAT_NULL_YIELDS_NULL ON;
 SET NUMERIC_ROUNDABORT OFF;
 
-IF DB_ID(N'ThanhtamCosmetics') IS NULL
-    EXEC(N'CREATE DATABASE [ThanhtamCosmetics]');
-GO
-USE [ThanhtamCosmetics];
-GO
+--IF DB_ID(N'ThanhtamCosmetics') IS NULL
+  --  EXEC(N'CREATE DATABASE [ThanhtamCosmetics]');
+--GO
+--USE [ThanhtamCosmetics];
+--GO
 
 
 IF OBJECT_ID(N'dbo.KhachHang', N'U') IS NULL
