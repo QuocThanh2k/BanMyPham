@@ -1,1 +1,13 @@
-{}
+{
+  "name": "banmypham",
+  "private": true,
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6"
+  }
+}

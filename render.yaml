@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: thanhtam-cosmetics-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
